@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    
+   
+}
+
+body {
+   
+    background: url("./img/wallpapersden.com_samurai-cool-cyberpunk-2077-4k_1920x1080.jpg");
+    background-color: black;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    background-size: cover; 
+    height: 1200px;
+    
+
+}
+
+header {
+
+    background-color: rgba(0, 0, 0, 0.51);
+    z-index: 1;
+    margin-top: 2%;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    justify-content: center;
+    width: 100vw;
+    padding: 5px;
+
+    
+    
+}
+
+
+
+.header-img{
+    display: flex;
+    
+}
+
+.sub-header{
+    margin-right: 50px;
+    color: darkred;
+}
+
+
+ul {
+    align-items: center;
+    display: flex;
+    margin-left: 480px;
+    gap: 90px;
+    margin-top: 30px;
+    font-size: 20px;
+
+
+}
+
+ul li{
+ display: flex;
+ color: rgb(255, 255, 255);
+ list-style: none;
+ text-transform: uppercase;
+ margin-bottom: 10px;
+}
+
+
+/* .content-login {
+    gap: 40px;
+    align-items: center;
+    display: flex;
+    margin-left: 1000px;
+    color: #fff;
+    list-style: none;
+    font-size: 16px;
+
+} */
+
+a{
+    text-decoration: none;
+    color: inherits;
+   
+}
+
+
+.enter{
+ position: absolute;
+ display: flex;
+ gap: 20px;
+ margin-left: 1000px;
+ 
+
+}
+
+/* .card{
+    
+    background-color: rgba(0, 0, 0, 0.534);
+    margin-left: 208px;
+    
+   
+}
+
+.card-text {
+    color: #fff;
+}
+
+.card-title {
+    color: #fff;
+    font-weight: 700;
+}
+
+.cards {
+
+    margin-right: 150px;
+    display: flex;
+    gap: 80px;
+    margin-top: 100px;
+    justify-content: center;
+} */
+
+main {
+    
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 100px;
+  
+    
+   
+}
+
+.card-teste {
+
+    border-radius: 8px;
+    max-width: 300px;
+    background-color: #0606067b;
+    padding-bottom: 20px;
+   
+  
+
+}
+
+.card-teste img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+.card-teste button {
+
+    margin-left: 10px;
+    width: 80px;
+    border-radius: 3px;
+    border: none;
+    height: 40px;
+    font-size: 18px;
+    background-color: #fff;
+    border: none;
+    font-weight: 500;
+    color: #8a3089;
+    
+    
+}
+
+h5 {
+    padding: 10px;
+    /* background-color: #0606067b; */
+    color: #fff;
+}
+
+p {
+    padding: 10px;
+    /* background-color: #0606067b; */
+    color: #fff;
+}
+
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 100px;
+   
+}
+
+.sub-dp{
+    margin-top: 25px;
+}
+
+.upper-dp{
+    margin-top: 25px;
+
+}
+
+.Sub-P{
+    margin-top: -3px;
+}
+
+.Sub-img{
+    height: 225px;
+}
+
+.sub-db{
+    margin-top: 20px;
+}
+
+.sub-fe9{
+    height: 225px;
+}
+
+
+
+
+
+footer {
+    margin-top: 150px;
+    background-color: black;
+    height: 400px;
+  
+    
+    
+}
+
+footer img{
+    position: absolute;
+    left: 42.5%;
+    top: 10%;
+    
+    
+   
+}
+
+.img-instagram {
+    left: 47%;
+    margin-top: 119px;
+     position: absolute;
+}
+
+.img-twitter {
+    left: 45%;
+    margin-top: 119px;
+     position: absolute;
+}
+
+
+.img-whatsapp {
+    left: 49%;
+    margin-top: 119px;
+     position: absolute;
+}
+
+.img-samurai{
+    position: absolute;
+    top: 125%;
+    margin-left: 710px;
+}
+
+
+.copy-footer {
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 300px;
+    width: 300px;
+}
+
+.footer-img {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+/* 
+@media screen and( width: 768px){
+    header{
+        
+    }
+
+    ul{
+
+    }
+
+    body{
+        
+    }
+} */
